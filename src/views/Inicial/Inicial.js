@@ -1,8 +1,8 @@
 import React from 'react';
-import { Text, View, TouchableOpacity, Image } from 'react-native';
+import { Text, View, TouchableOpacity, ImageBackground } from 'react-native';
 import estiloInicial from './estiloInicial';
 
-<Image source={require('../assets/sweetTooth.jpg')} />
+
 
 function Inicial({ navigation }) {
 
