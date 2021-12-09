@@ -7,6 +7,24 @@ function Detalhes({ navigation }) {
     const voltar = () => {
         navigation.goBack();
     }
+    const abrirSobre = () => {
+        navigation.navigate('Sobre')
+    }
+    const abrirEventos = () => {
+        navigation.navigate('Eventos')
+    }
+    const abrirObras = () => {
+        navigation.navigate('Obras')
+    }
+    const abrirNoticias = () => {
+        navigation.navigate('Noticias')
+    }
+    const abrirCampanhas = () => {
+        navigation.navigate('Campanhas')
+    }
+    const abrirInicial = () => {
+        navigation.navigate('Inicial')
+    }
 
     return (
         <View style={{flex: 1, backgroundColor: '#B0E0E6'}}>

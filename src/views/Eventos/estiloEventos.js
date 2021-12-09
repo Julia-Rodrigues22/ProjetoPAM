@@ -1,6 +1,6 @@
-import { StyleSheet, StatusBar } from 'react-native';
+import { StyleSheet, StatusBar} from 'react-native';
 
-const estiloInicial = StyleSheet.create ({
+const estiloEventos = StyleSheet.create ({
 
     
     titulo: {
@@ -11,16 +11,6 @@ const estiloInicial = StyleSheet.create ({
         fontFamily: "Cochin",
         padding: 10
     },
-
-    textinho: {
-        fontSize: 30,
-        color: '#000000',
-        fontWeight: 'bold',
-        textAlign: "center",
-        fontFamily: "Cochin",
-        padding: 10
-    },
-
     container: {
         flex: 1,
         paddingTop: StatusBar.currentHeight
@@ -39,21 +29,37 @@ const estiloInicial = StyleSheet.create ({
         padding: 10
     },
 
+    
     texto: {
         fontSize: 20,
         color: '#000000',
         textAlign: "justify",
-        fontFamily: "Arial",
         padding: 10,
         marginLeft: 50,
         marginRight: 50
     },
     imagem:{
-        width: '100%',
-        height: '100%',
-        flex: 1 
+        
+        display: "flex",
+        flexDirection: "vertical",
+        justifyContent: "space-around",
+        alignItems: "center",
+        height: "35%",
+        textAlign: "center"
+
+    },
+    imagem2: {
+
+        display: "flex",
+        flexDirection: "vertical",
+        justifyContent: "space-around",
+        alignItems: "center",
+        height: "25%",
+        textAlign: "center"
+
 
     }
+
 });
 
-export default estiloInicial;
+export default estiloEventos;
